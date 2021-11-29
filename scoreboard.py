@@ -30,6 +30,5 @@ class Scoreboard(Turtle):
         self.home()
         self.write(arg="GAME OVER!", align=ALIGNMENT, font=("Courier", 24, "bold"))
         self.goto(0, 30)
-        self.write(arg=f"FINAl LEVEL : {self.level}", align=ALIGNMENT, font=("Courier", 30, "bold"))
-
+        self.write(arg=f"FINAl LEVEL : {self.level - 1}", align=ALIGNMENT, font=("Courier", 30, "bold"))
 
